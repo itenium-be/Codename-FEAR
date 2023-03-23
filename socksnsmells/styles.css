@@ -1,0 +1,195 @@
+body {
+  font-family: tahoma;
+  color: #282828;
+  margin: 0px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.nav-bar {
+  background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+  height: 60px;
+}
+
+.nav-bar h1 {
+  padding: 5px;
+  font-family: cursive;
+  margin-left: 10px;
+}
+
+.product {
+  display: flex;
+  flex-flow: wrap;
+  padding: 0rem 1rem;
+}
+
+.fa.fa-star {
+  color: #dbdb5b;
+  font-size: 20px;
+}
+
+img {
+  border: 1px solid #d8d8d8;
+  width: 70%;
+  margin: 40px;
+  box-shadow: 0px .5px 1px #d8d8d8;
+}
+
+.product-image {
+  width: 80%;
+}
+
+.product-image,
+.product-info {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.color-box {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.active {
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.cart {
+  position: absolute;
+  border: 1px solid #d8d8d8;
+  padding: 11px 15px;
+  top: 8px;
+  right: 13px;
+  color: royalblue;
+  background-color: antiquewhite;
+}
+
+button.add-to-cart {
+  border: none;
+  background-color: #1E95EA;
+  color: white;
+  height: 40px;
+  width: 100px;
+  font-size: 14px;
+  position: absolute;
+  top: 85px;
+  right: 13px;
+}
+
+button.btn {
+  border: none;
+  background-color: #1E95EA;
+  color: white;
+  height: 40px;
+  width: 100px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button.btn:hover {
+  background-color: #0a456f;
+}
+
+.disabledButton {
+  background-color: #d8d8d8 !important;
+}
+
+.review-form {
+  width: 175px;
+  padding: 5px;
+  margin: 0px;
+}
+
+h3 {
+  margin-bottom: 6px;
+}
+
+input:not([type=checkbox]) {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+}
+
+.tab {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.activeTab {
+  color: #16C0B0;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0 12px;
+}
+
+a.next {
+  float: right;
+}
+
+.error {
+  color: #e90c0c;
+}
+
+.product-listing {
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+}
+
+.product-line {
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 7px;
+}
+
+.product-line h2 {
+  display: inline;
+}
+
+.product-line button {
+  float: right;
+  height: 30px;
+}
+
+.spinner {
+  margin: auto;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.spinner .fa-spinner {
+  font-size: 150px;
+}
+
+
+.favourite {
+  margin-right: 15px;
+  font-size: 26px;
+}
+
+
+.cart-container {
+  padding: 20px;
+  width: 500px;
+  margin: auto;
+  margin-top: 25px;
+  border: 1px solid black;
+}
+
+.pagination a:hover {
+  text-decoration: underline;
+}
