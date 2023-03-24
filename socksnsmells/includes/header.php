@@ -18,4 +18,12 @@
 
 <?php
 error_reporting(E_ALL);
+
+function customError($errno, $errstr) {
+  echo "<b>Error:</b> [$errno] please contact your administrator";
+}
+
+set_error_handler("customError");
+
+
 ?>
