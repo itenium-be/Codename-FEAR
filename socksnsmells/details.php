@@ -1,4 +1,5 @@
 <html lang="en">
+<?php ini_set('display_errors', 0); ?>
 <?php
 include './includes/header.php';
 include './includes/db.php.ini';
