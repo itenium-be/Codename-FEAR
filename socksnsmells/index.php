@@ -3,6 +3,8 @@
 include './includes/header.php';
 include './includes/db.php.ini';
 
+ini_set("display_errors", 0);
+
 $sql = "SELECT id, name, brand, variant, color, price, inventory FROM socks";
 $result = $conn->query($sql);
 ?>
